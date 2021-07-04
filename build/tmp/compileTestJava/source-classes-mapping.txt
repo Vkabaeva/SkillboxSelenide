@@ -1,0 +1,4 @@
+selenide/skillbox/pages/MainPage.java
+ selenide.skillbox.pages.MainPage
+selenide/skillbox/tests/SimpleTest.java
+ selenide.skillbox.tests.SimpleTest

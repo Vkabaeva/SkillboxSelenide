@@ -1,0 +1,29 @@
+На странице: http://qa.skillbox.ru/module09/practice4/Kontakty/index.html
+
+1. Локатор кнопки "Отправить"
+By.cssSelector("[type='button']")
+
+2. Локатор поля с текстом "Опишите свои впечатления в нескольких предложениях"
+By.name("comments")
+
+3. Локатор поля для ввода имени. Локатор должен искать по атрибуту placeholder.
+Используйте CSS.
+By.cssSelector("[placeholder='Имя']")
+
+4. Локатор поля для ввода E-mail. Локатор должен искать по атрибуту name, используйте XPath.
+By.xpath("//input[@name='email']")
+
+5. Локатор кнопки в меню "Интересные статьи". Внимание: этот
+локатор-исключением, по нему у вас будет искать 2 элемента, и это нормально.
+By.linkText("Интересные статьи")
+
+На странице: http://qa.skillbox.ru/module09/practice4/Catalog/index.html
+6. Локатор элемента <div class="catalog"> с указанием ближайшего родительского элемента в локаторе. Используйте CSS или XPath.
+By.cssSelector("[class='catalog']")
+
+7. Локатор !второго! элемента <div class="product-block">. Используйте CSS или XPath.
+By.cssSelector(".catalog .product-block:nth-of-type(2)")
+By.xpath("./div[2]")
+
+8. Локатор элемента <header class="header">. Постройте локатор следующим образом: элемент с тегом header, атрибут class которого содержит слово "hea". Используйте CSS или XPath.
+By.cssSelector("button")
